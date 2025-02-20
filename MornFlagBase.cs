@@ -7,5 +7,6 @@ namespace MornFlag
     public abstract class MornFlagBase
     {
         [SerializeField] private string _key;
+        public string Key => _key;
     }
 }
